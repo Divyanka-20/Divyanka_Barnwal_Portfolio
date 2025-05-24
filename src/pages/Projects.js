@@ -9,7 +9,7 @@ const projects = [
     icon: <FaLaptopCode size={iconSize} color="#007bff" />,
     title: 'Portfolio Website',
     description: 'A multipage portfolio built with React, Bootstrap, and theme toggle functionality.',
-    link: 'https://github.com/yourusername/portfolio',
+    link: 'https://github.com/Divyanka-20/Divyanka_Barnwal_Portfolio',
   },
   {
     icon: <FaRocket size={iconSize} color="#28a745" />,
