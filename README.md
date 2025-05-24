@@ -14,25 +14,26 @@ This is my personal portfolio website built with **React** and **Bootstrap**, sh
 
 Divyanka_Barnwal_Portfolio/
 ├── public/
-│ ├── index.html
-│ ├── logo.png
-│ └── resume.pdf
-│ └── manifest.json
+│   ├── index.html
+│   ├── logo.png
+│   ├── resume.pdf
+│   └── manifest.json
 ├── src/
-│ ├── components/
-│ │ ├── Navbar.js
-│ │ └── Footer.js
-│ ├── pages/
-│ │ ├──About.js
-│ │ ├──Contact.js
-│ │ ├──Home.js
-│ │ ├──Image.jpg
-│ │ ├──Projects.js
-│ ├── App.js
-│ └── index.js
+│   ├── components/
+│   │   ├── Navbar.js
+│   │   └── Footer.js
+│   ├── pages/
+│   │   ├── About.js
+│   │   ├── Contact.js
+│   │   ├── Home.js
+│   │   ├── Projects.js
+│   │   └── Image.jpg
+│   ├── App.js
+│   └── index.js
 ├── .gitignore
 ├── package.json
 └── README.md
+
 
 ## 🧠 Features
 
