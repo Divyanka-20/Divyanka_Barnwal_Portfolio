@@ -10,29 +10,29 @@ This is my personal portfolio website built with **React** and **Bootstrap**, sh
 - JavaScript
 - Font Awesome / React Icons
 
-## 📁 Folder Structure
+## 📁 Folder Structure 
 
-Divyanka_Barnwal_Portfolio/
-├── public/
-│   ├── index.html
-│   ├── logo.png
-│   ├── resume.pdf
-│   └── manifest.json
-├── src/
-│   ├── components/
-│   │   ├── Navbar.js
-│   │   └── Footer.js
-│   ├── pages/
-│   │   ├── About.js
-│   │   ├── Contact.js
-│   │   ├── Home.js
-│   │   ├── Projects.js
-│   │   └── Image.jpg
-│   ├── App.js
-│   └── index.js
-├── .gitignore
-├── package.json
-└── README.md
+Divyanka_Barnwal_Portfolio/<br>
+├── public/<br>
+│ ├── index.html<br>
+│ ├── logo.png<br>
+│ ├── resume.pdf<br>
+│ └── manifest.json<br>
+├── src/<br>
+│ ├── components/<br> 
+│ │ ├── Navbar.js<br>
+│ │ └── Footer.js<br>
+│ ├── pages/<br>
+│ │ ├── About.js<br>
+│ │ ├── Contact.js<br>
+│ │ ├── Home.js<br>
+│ │ ├── Projects.js<br>
+│ │ └── Image.jpg<br>
+│ ├── App.js<br>
+│ └── index.js<br>
+├── .gitignore<br>
+├── package.json<br>
+└── README.md 
 
 
 ## 🧠 Features
