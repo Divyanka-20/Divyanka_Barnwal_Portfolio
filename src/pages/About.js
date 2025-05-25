@@ -172,34 +172,7 @@ function About() {
           ))}
         </div>
 
-        <div className="text-center mt-4">
-          <Button
-            href="/contact"
-            style={{
-              marginTop: '1rem',
-              padding: '0.6rem 1.5rem',
-              fontSize: '1rem',
-              fontWeight: '600',
-              borderRadius: '30px',
-              backgroundColor: '#a3d2ca',
-              color: '#054a45',
-              border: '1px solid #8ac7be',
-              transition: 'background-color 0.3s ease, transform 0.3s ease',
-            }}
-            onMouseEnter={(e) => {
-              e.target.style.backgroundColor = '#07656d';
-              e.target.style.color = '#e0f2f1';
-              e.target.style.transform = 'scale(1.05)';
-            }}
-            onMouseLeave={(e) => {
-              e.target.style.backgroundColor = '#a3d2ca';
-              e.target.style.color = '#054a45';
-              e.target.style.transform = 'scale(1)';
-            }}
-          >
-            💼 Hire Me
-          </Button>
-        </div>
+        
       </div>
     </Container>
   );
