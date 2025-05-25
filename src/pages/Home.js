@@ -108,19 +108,7 @@ function Home() {
               >
                 <FaLinkedin />
               </a>
-              <a
-                href="divyanka-barnwal-portfolio.netlify.app"
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{
-                  ...styles.iconLink,
-                  ...(iconHover === 'website' ? styles.iconHover : {}),
-                }}
-                onMouseEnter={() => setIconHover('website')}
-                onMouseLeave={() => setIconHover(null)}
-              >
-                <FaGlobe />
-              </a>
+             
             </div>
           </Col>
           <Col md={8}>
