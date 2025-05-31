@@ -42,4 +42,4 @@ Divyanka_Barnwal_Portfolio/<br>
 - Responsive layout for all devices
 - Theme toggle (light/dark)
 - Modern, clean user interface
-- Hire Me Button that connects to the Contact page
+- Hire Me Button that takess to Contact page
