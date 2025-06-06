@@ -33,7 +33,7 @@ const projects = [
     icon: <FaBus size={iconSize} color="#fd7e14" />,
     title: 'Bus Ticket Booking System',
     description: 'Console app in C programming for booking, canceling, and viewing bus tickets with seat tracking and fare calculation using file handling.',
-    link: 'https://github.com/yourusername/bus-ticket-booking', // Replace with your actual link or remove if none
+    link: 'https://github.com/Divyanka-20/Bus-Ticket-Booking-System',
   },
 ];
 const styles = {
