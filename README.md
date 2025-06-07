@@ -42,4 +42,10 @@ Divyanka_Barnwal_Portfolio/<br>
 - Responsive layout for all devices
 - Theme toggle (light/dark)
 - Modern, clean user interface
-- Hire Me Button that takess to Contact page
+
+
+## 💻 To view the result of this repository
+
+- https://vscode.dev/github/Divyanka-20/Divyanka_Barnwal_Portfolio/tree/main
+- To start execution pass in terminal:
+  - npm start
