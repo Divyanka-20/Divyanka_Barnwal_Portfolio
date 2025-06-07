@@ -27,7 +27,7 @@ const projects = [
     icon: <FaBuilding size={iconSize} color="#6f42c1" />,
     title: 'PG Life Clone (Internshala Web Dev Project)',
     description: 'Responsive web app for students to find PG accommodations. Features user login, city-based filters, and PG detail pages. Developed during Internshala training.',
-    link: 'https://github.com/yourusername/pg-life-clone', // Replace with your actual link or remove if none
+    link: 'https://github.com/Divyanka-20/PG_Life',
   },
   {
     icon: <FaBus size={iconSize} color="#fd7e14" />,
