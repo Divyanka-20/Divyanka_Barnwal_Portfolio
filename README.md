@@ -2,6 +2,9 @@
 
 This is my personal portfolio website built with **React** and **Bootstrap**, showcasing my projects, skills, and resume. It includes features like dark/light theme toggle, responsive design, and animated transitions.
 
+🌐 **Live Demo**: [Portfolio App](https://divyanka-barnwal-portfolio.onrender.com/)
+
+
 ## 🔧 Technologies Used
 
 - React
