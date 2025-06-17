@@ -8,7 +8,7 @@ const contactItems = [
   {
     icon: <FaEnvelope size={iconSize} color="#D44638" />,
     label: 'Email',
-    content: 'barnwaldivyanka20@gmail.com',
+    content: 'barnwaldivyanka@gmail.com',
     href: null,
   },
   {
