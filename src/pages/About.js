@@ -112,7 +112,7 @@ function About() {
       >
         <p>
           I’m <strong>Divyanka Barnwal</strong>, a <strong>Full Stack Web Developer</strong> with strong skills in front-end and back-end technologies.
-          My passion lies in building responsive, interactive, and modern web applications. I am currently pursuing a BCA
+          My passion lies in building responsive, interactive, and modern web applications. I am currently pursuing BCA
           and always eager to learn and grow in the tech space.
         </p>
 
