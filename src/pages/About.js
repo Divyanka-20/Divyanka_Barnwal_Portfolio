@@ -154,7 +154,7 @@ function About() {
       </div>
 
       <div style={styles.sectionSkills}>
-        <h2 className="mb-3 text-center">SKILLS</h2>
+        <h2 className="mb-3 text-center" style={{ color: 'black' }}>SKILLS</h2>
         <div className="d-flex flex-wrap justify-content-center">
           {skills.map((skill, index) => (
             <div
