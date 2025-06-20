@@ -50,5 +50,5 @@ Divyanka_Barnwal_Portfolio/<br>
 ## 💻 To view the result of this repository
 
 - https://vscode.dev/github/Divyanka-20/Divyanka_Barnwal_Portfolio/tree/main
-- To start execution pass in terminal:
+- To start execution pass the command in terminal:
   - npm start
