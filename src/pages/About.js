@@ -87,7 +87,7 @@ const skills = [
   { name: 'Bootstrap', icon: <SiBootstrap /> },
   { name: 'GitHub', icon: <FaGithub /> },
   { name: 'Database', icon: <FaDatabase /> },
-  { name: 'C Programming', icon: <SiC /> },
+  { name: 'C', icon: <SiC /> },
   { name: 'C++', icon: <SiCplusplus /> },
   { name: 'Java', icon: <DiJava /> },
   { name: 'PL/SQL', icon: <SiOracle /> },
