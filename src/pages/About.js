@@ -1,7 +1,8 @@
 import React from 'react';
 import { Container, Button } from 'react-bootstrap';
 import { FaEye, FaDownload, FaGithub, FaHtml5, FaCss3Alt, FaJs, FaReact, FaPython, FaPhp, FaDatabase, FaPaintBrush, FaCogs, FaServer } from 'react-icons/fa';
-import { SiC, SiCplusplus, SiMysql, SiOracle, SiBootstrap, SiAlgorithmia } from 'react-icons/si';
+import { SiC, SiCplusplus, SiMysql, SiOracle, SiBootstrap } from 'react-icons/si';
+import { FaProjectDiagram, FaCodeBranch, FaCode } from 'react-icons/fa';
 import { DiJava } from 'react-icons/di';
 import '../App.css';
 
@@ -93,7 +94,7 @@ const skills = [
   { name: 'PL/SQL', icon: <SiOracle /> },
   { name: 'OOPS', icon: <FaCogs /> },
   { name: 'Operating System', icon: <FaServer /> },
-  { name: 'Data Structures & Algorithms', icon: <SiAlgorithmia /> },
+  { name: 'Data Structures & Algorithms', icon: <FaProjectDiagram /> },
   { name: 'DBMS', icon: <FaDatabase /> },
 ];
 
