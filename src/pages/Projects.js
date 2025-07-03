@@ -18,6 +18,12 @@ const projects = [
     link: 'https://github.com/Divyanka-20/Bus-Ticket-Booking-System',
   },
   {
+    icon: <FaBuilding size={iconSize} color="#6f42c1" />,
+    title: 'PG Life Clone (Internshala Web Dev Project)',
+    description: 'Responsive web app for students to find PG accommodations. Features user login, city-based filters, and PG detail pages. Developed during Internshala training.',
+    link: 'https://github.com/Divyanka-20/PG_Life',
+  },
+  {
     icon: <FaLaptopCode size={iconSize} color="#007bff" />,
     title: 'Portfolio Website',
     description: 'A multipage portfolio built with React, Bootstrap, and theme toggle functionality.',
@@ -34,12 +40,6 @@ const projects = [
     title: 'Indian Wildlife Project',
     description: 'A JSP & MySQL based web project showcasing Indian wildlife with booking features.',
     link: 'https://github.com/yourusername/indian-wildlife-project',
-  },
-  {
-    icon: <FaBuilding size={iconSize} color="#6f42c1" />,
-    title: 'PG Life Clone (Internshala Web Dev Project)',
-    description: 'Responsive web app for students to find PG accommodations. Features user login, city-based filters, and PG detail pages. Developed during Internshala training.',
-    link: 'https://github.com/Divyanka-20/PG_Life',
   },
 ];
 const styles = {
