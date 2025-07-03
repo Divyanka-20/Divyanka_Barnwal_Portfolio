@@ -6,7 +6,7 @@ const iconSize = 36;
 
 const projects = [
   {
-    icon: <FaTshirt size={iconSize} color="#0d6efd" />,
+    icon: <FaTshirt size={iconSize} color="#ffc107" />,
     title: 'GarmentGrid Clothing Website',
     description: 'Dynamic PHP & MySQL-based eCommerce site for clothing with category filters, session cart, search, responsive design, and AJAX-powered features.',
     link: 'https://github.com/Divyanka-20/GarmentGrid',
@@ -30,13 +30,13 @@ const projects = [
     link: 'https://github.com/Divyanka-20/Divyanka_Barnwal_Portfolio',
   },
   {
-    icon: <FaRocket size={iconSize} color="#28a745" />,
+    icon: <FaRocket size={iconSize} color="#ff6b6b" />,
     title: 'Interview Prep Hub',
     description: 'A React app for coding interview questions, experiences, and community engagement.',
     link: 'https://github.com/yourusername/interview-prep-hub',
   },
   {
-    icon: <FaLeaf size={iconSize} color="#ff6b6b" />,
+    icon: <FaLeaf size={iconSize} color="#28a745" />,
     title: 'Indian Wildlife Project',
     description: 'A JSP & MySQL based web project showcasing Indian wildlife with booking features.',
     link: 'https://github.com/yourusername/indian-wildlife-project',
