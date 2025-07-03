@@ -1,10 +1,22 @@
 import React from 'react';
 import { Container, Card, Row, Col, Button } from 'react-bootstrap';
-import { FaLaptopCode, FaRocket, FaLeaf, FaBuilding, FaBus } from 'react-icons/fa';
+import { FaLaptopCode, FaRocket, FaLeaf, FaBuilding, FaBus, FaTshirt } from 'react-icons/fa';
 
 const iconSize = 36;
 
 const projects = [
+  {
+    icon: <FaTshirt size={iconSize} color="#0d6efd" />,
+    title: 'GarmentGrid Clothing Website',
+    description: 'Dynamic PHP & MySQL-based eCommerce site for clothing with category filters, session cart, search, responsive design, and AJAX-powered features.',
+    link: 'https://github.com/Divyanka-20/GarmentGrid',
+  },
+  {
+    icon: <FaBus size={iconSize} color="#fd7e14" />,
+    title: 'Bus Ticket Booking System',
+    description: 'Console app in C programming for booking, canceling, and viewing bus tickets with seat tracking and fare calculation using file handling.',
+    link: 'https://github.com/Divyanka-20/Bus-Ticket-Booking-System',
+  },
   {
     icon: <FaLaptopCode size={iconSize} color="#007bff" />,
     title: 'Portfolio Website',
@@ -28,12 +40,6 @@ const projects = [
     title: 'PG Life Clone (Internshala Web Dev Project)',
     description: 'Responsive web app for students to find PG accommodations. Features user login, city-based filters, and PG detail pages. Developed during Internshala training.',
     link: 'https://github.com/Divyanka-20/PG_Life',
-  },
-  {
-    icon: <FaBus size={iconSize} color="#fd7e14" />,
-    title: 'Bus Ticket Booking System',
-    description: 'Console app in C programming for booking, canceling, and viewing bus tickets with seat tracking and fare calculation using file handling.',
-    link: 'https://github.com/Divyanka-20/Bus-Ticket-Booking-System',
   },
 ];
 const styles = {
