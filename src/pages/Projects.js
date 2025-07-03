@@ -14,7 +14,7 @@ const projects = [
   {
     icon: <FaBus size={iconSize} color="#fd7e14" />,
     title: 'Bus Ticket Booking System',
-    description: 'Console app in C programming for booking, canceling, and viewing bus tickets with seat tracking and fare calculation using file handling.',
+    description: 'Web-based ticket booking system using HTML, CSS, and JavaScript with seat tracking, fare calculation, and booking history stored via LocalStorage.',
     link: 'https://github.com/Divyanka-20/Bus-Ticket-Booking-System',
   },
   {
