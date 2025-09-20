@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { Container, Row, Col, Card, Image, Button } from 'react-bootstrap';
 import { FaGithub, FaLinkedin, FaGlobe } from 'react-icons/fa';
-import profilePic from './Image.jpg';
+import profilePic from './Image.png';
 import '../App.css';
 
 const styles = {
@@ -133,3 +133,4 @@ function Home() {
 }
 
 export default Home;
+
