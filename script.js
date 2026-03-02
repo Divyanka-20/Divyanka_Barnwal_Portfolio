@@ -19,11 +19,13 @@ document.addEventListener('DOMContentLoaded', function() {
     const html = document.documentElement;
     
     const savedTheme = localStorage.getItem('theme');
-    if (savedTheme) {
-        html.setAttribute('data-theme', savedTheme);
-    } else if (window.matchMedia('(prefers-color-scheme: light)').matches) {
-        html.setAttribute('data-theme', 'dark');
-    }
+
+	// Default = Light Mode
+	if (savedTheme === 'dark') {
+	    html.setAttribute('data-theme', 'dark');
+	} else {
+	    html.removeAttribute('data-theme'); // Light mode default
+	}
 
     themeToggle.addEventListener('click', () => {
         const currentTheme = html.getAttribute('data-theme');
@@ -189,6 +191,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
 
 
 
