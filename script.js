@@ -28,17 +28,16 @@ document.addEventListener('DOMContentLoaded', function() {
 	}
 
     themeToggle.addEventListener('click', () => {
-        const currentTheme = html.getAttribute('data-theme');
-        const newTheme = currentTheme === 'light' ? 'dark' : 'light';
-        
-        if (newTheme === 'light') {
-            html.removeAttribute('data-theme');
-        } else {
-            html.setAttribute('data-theme', 'dark');
-        }
-        
-        localStorage.setItem('theme', newTheme === 'light' ? 'light' : '');
-    });
+	    const isDark = html.getAttribute('data-theme') === 'dark';
+	
+	    if (isDark) {
+	        html.removeAttribute('data-theme');  // Switch to Light
+	        localStorage.setItem('theme', 'light');
+	    } else {
+	        html.setAttribute('data-theme', 'dark'); // Switch to Dark
+	        localStorage.setItem('theme', 'dark');
+	    }
+	});
 
     const roles = [
 		'Full Stack Developer',
@@ -191,6 +190,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
 
 
 
