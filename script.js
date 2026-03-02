@@ -21,13 +21,13 @@ document.addEventListener('DOMContentLoaded', function() {
     const savedTheme = localStorage.getItem('theme');
     if (savedTheme) {
         html.setAttribute('data-theme', savedTheme);
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    } else if (window.matchMedia('(prefers-color-scheme: light)').matches) {
         html.setAttribute('data-theme', 'dark');
     }
 
     themeToggle.addEventListener('click', () => {
         const currentTheme = html.getAttribute('data-theme');
-        const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+        const newTheme = currentTheme === 'light' ? 'dark' : 'light';
         
         if (newTheme === 'light') {
             html.removeAttribute('data-theme');
@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
             html.setAttribute('data-theme', 'dark');
         }
         
-        localStorage.setItem('theme', newTheme === 'dark' ? 'dark' : '');
+        localStorage.setItem('theme', newTheme === 'light' ? 'light' : '');
     });
 
     const roles = [
@@ -189,5 +189,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
 
 
