@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     themeToggle.addEventListener('click', () => {
         const currentTheme = html.getAttribute('data-theme');
-        const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+        const newTheme = currentTheme === 'light' ? 'light' : 'dark';
         
         if (newTheme === 'light') {
             html.removeAttribute('data-theme');
@@ -189,3 +189,4 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
